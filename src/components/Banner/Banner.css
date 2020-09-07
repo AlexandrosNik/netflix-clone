@@ -1,0 +1,99 @@
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 736px;
+  position: relative;
+}
+
+.banner__contents {
+  margin-left: 3.5rem;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner__title {
+  font-size: 3.5rem;
+  font-family: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner__description {
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  max-width: 760px;
+}
+
+.banner__buttons {
+  margin: 1.5rem 0;
+  display: flex;
+}
+
+.banner__button {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  padding: 0.75rem 2rem;
+  margin-right: 1rem;
+  transition: background-color 0.275s ease;
+}
+
+.banner__button--myList {
+  background-color: rgba(109, 109, 110, 0.9);
+}
+
+.banner__button--play {
+  background-color: white;
+  color: #111;
+}
+
+.banner__button--play:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.banner__button--myList:hover {
+  background-color: rgba(109, 109, 110, 0.7);
+}
+
+.banner--fadeBottom {
+  position: absolute;
+  height: 4rem;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+  bottom: 0;
+}
+
+.icon-play--small,
+.icon-info {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.Toastify__toast--success {
+  background: #111;
+  color: white;
+}
+.Toastify__toast--error {
+  background: #e50914;
+  color: white;
+}
+.Toastify__progress-bar.Toastify__progress-bar--animated.Toastify__progress-bar--success {
+  background-color: #e50914;
+}
+.Toastify__progress-bar.Toastify__progress-bar--animated.Toastify__progress-bar--error {
+  background-color: white;
+}
+
+@media (max-width: 700px) {
+  .banner__description {
+    font-size: 1rem;
+  }
+}

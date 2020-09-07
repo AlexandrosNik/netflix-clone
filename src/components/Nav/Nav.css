@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(#111, transparent);
+  transition: 0.5s ease;
+}
+
+.bgBlack {
+  background-color: #111;
+}
+
+.nav-bar__left {
+  display: flex;
+  align-items: center;
+  margin-left: 3.5rem;
+}
+
+.nav-bar__right {
+  margin-right: 3.5rem;
+}
+
+.nav__logo {
+  height: 3rem;
+  margin-right: 2rem;
+  margin-left: -0.6rem;
+}
+
+.nav-bar__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-bar__item {
+  color: white;
+  margin-right: 1.5rem;
+}
+
+.nav__avatar {
+  height: 2rem;
+  margin-right: 1rem;
+}
